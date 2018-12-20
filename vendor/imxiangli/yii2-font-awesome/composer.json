@@ -1,0 +1,22 @@
+{
+    "name": "imxiangli/yii2-font-awesome",
+    "description": "yii2-font-awesome",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "lixiang",
+            "email": "imxiangli@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/font-awesome": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "imxiangli\\fontawesome\\": ""
+        }
+    }
+}

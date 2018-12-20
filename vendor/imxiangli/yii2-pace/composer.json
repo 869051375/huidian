@@ -1,0 +1,22 @@
+{
+    "name": "imxiangli/yii2-pace",
+    "description": "yii2-pace",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "lixiang",
+            "email": "imxiangli@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/pace": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "imxiangli\\pace\\": ""
+        }
+    }
+}

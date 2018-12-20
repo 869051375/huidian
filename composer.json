@@ -1,0 +1,68 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "imxiangli/yii2-ladda": "*",
+        "imxiangli/yii2-slimscroll": "*",
+        "imxiangli/yii2-pace": "*",
+        "imxiangli/yii2-animate": "*",
+        "imxiangli/yii2-font-awesome": "*",
+        "imxiangli/yii2-select2": "*",
+        "imxiangli/yii2-jquery-file-upload": "^1.0",
+        "imxiangli/yii2-image-storage": "*",
+        "aliyuncs/oss-sdk-php": "^2.2",
+        "imxiangli/yii2-metis-menu": "^1.0",
+        "imxiangli/yii2-ckeditor": "^1.0",
+        "toxor88/yii2-widget-switchery": "^1.0",
+        "imxiangli/yii2-alipay": "^1.0",
+        "imxiangli/yii2-wxpay": "^1.0",
+        "2amigos/yii2-qrcode-helper": "^1.0",
+        "2amigos/yii2-date-picker-widget": "^1.0",
+        "zhuravljov/yii2-datetime-widgets": "^1.0",
+        "yiisoft/yii2-redis": "^2.0",
+        "2amigos/yii2-file-upload-widget": "^1.0",
+        "predis/predis": "^1.1",
+        "shmilyzxt/yii2-queue": "dev-master",
+        "yiisoft/yii2-imagine": "^2.1",
+        "league/csv": "^8.2",
+        "phpoffice/phpexcel": "^1.8",
+        "light/yii2-swagger": "~1.0.7",
+        "schmunk42/yii2-giiant": "^0.10.7"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": "php init --env=Development --overwrite=n"
+    }
+}
